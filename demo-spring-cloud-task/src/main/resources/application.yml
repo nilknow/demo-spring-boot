@@ -10,4 +10,4 @@ logging:
       springframework:
         cloud:
           task: DEBUG
-        web: TRACE
+#        web: TRACE

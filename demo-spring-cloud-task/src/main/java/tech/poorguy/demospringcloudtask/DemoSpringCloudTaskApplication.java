@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableTask
-@EnableBatchProcessing
+//@EnableBatchProcessing
 public class DemoSpringCloudTaskApplication {
 
     public static void main(String[] args) {
@@ -23,8 +23,12 @@ public class DemoSpringCloudTaskApplication {
 
     public static class HelloWorldCommandLineRunner implements CommandLineRunner {
         @Override
-        public void run(String... args) {
+        public void run(String... args) throws InterruptedException {
+            System.out.println("hello world start...");
+            Thread.sleep(3*1000);
             System.out.println("hello world");
+            Thread.sleep(3*1000);
+            System.out.println("hello world end...");
         }
     }
 }
