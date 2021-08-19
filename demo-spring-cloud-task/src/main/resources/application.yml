@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo-spring-cloud-task
+#  cloud:
+#    task:
+#      table-prefix: task_
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          task: DEBUG
+        web: TRACE
