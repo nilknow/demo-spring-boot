@@ -1,0 +1,27 @@
+logging:
+  level:
+    org:
+#      springframework:
+#        data:
+#          jpa: DEBUG
+      hibernate:
+        type:
+          descriptor:
+            sql: trace
+spring:
+#  datasource:
+#    url: jdbc:h2:mem:db?createDatabaseIfNotExist=true
+#    driver-class-name: org.h2.Driver
+#    username: pg
+#    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      format_sql: true
+      hibernate:
+        jdbc:
+          batch_size: 2
+        generate_statistics: true
+        dialect: org.hibernate.dialect.Oracle12cDialect
