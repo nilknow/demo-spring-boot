@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/h2
+    username: username
+    password: password
+    initialization-mode: embedded
+  batch:
+    initialize-schema: always
+  jpa:
+    hibernate:
+      ddl-auto: none
+  h2:
+    console:
+      enabled: true
+      path: /h2
