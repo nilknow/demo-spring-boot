@@ -10,7 +10,7 @@ public class Demo {
         try {
             sayHiImpl(0);
         } catch (ArithmeticException e) {
-            throw e;
+            e.printStackTrace();
         }
     }
 
