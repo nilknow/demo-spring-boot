@@ -23,6 +23,6 @@ public class Demo {
         List<String> strings = Arrays.asList("1", "2");
         Stream<String> stream = strings.stream();
         Stream<Object> objectStream = stream.map(x ->x);
-        strings.parallelStream().dropWhile()
+//        strings.parallelStream().dropWhile();
     }
 }
