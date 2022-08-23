@@ -1,4 +1,4 @@
-package tech.poorguy.demospringcloudtask;
+package com.nilknow.demospringcloudtask;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.CommandLineRunner;

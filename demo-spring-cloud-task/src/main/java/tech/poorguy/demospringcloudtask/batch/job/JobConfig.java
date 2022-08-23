@@ -1,4 +1,4 @@
-//package tech.poorguy.demospringcloudtask.batch.job;
+//package com.nilknow.demospringcloudtask.batch.job;
 //
 //import org.springframework.batch.core.Job;
 //import org.springframework.batch.core.Step;
@@ -12,7 +12,7 @@
 //import org.springframework.cloud.task.listener.TaskExecutionListener;
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
-//import tech.poorguy.demospringcloudtask.task.CustomTaskExecuteListener;
+//import com.nilknow.demospringcloudtask.task.CustomTaskExecuteListener;
 //
 //@Configuration
 //public class JobConfig {

@@ -1,4 +1,4 @@
-package tech.poorguy.demospringdatajpa;
+package com.nilknow.demospringdatajpa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

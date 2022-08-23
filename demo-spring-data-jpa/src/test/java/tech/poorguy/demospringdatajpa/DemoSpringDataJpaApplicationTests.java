@@ -1,4 +1,4 @@
-package tech.poorguy.demospringdatajpa;
+package com.nilknow.demospringdatajpa;
 
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.Disabled;

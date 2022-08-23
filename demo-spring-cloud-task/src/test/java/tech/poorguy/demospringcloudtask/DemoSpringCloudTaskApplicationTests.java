@@ -1,4 +1,4 @@
-package tech.poorguy.demospringcloudtask;
+package com.nilknow.demospringcloudtask;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

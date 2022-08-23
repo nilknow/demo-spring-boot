@@ -1,4 +1,4 @@
-package tech.poorguy.demospringcloudtask.task;
+package com.nilknow.demospringcloudtask.task;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.task.listener.TaskExecutionListener;

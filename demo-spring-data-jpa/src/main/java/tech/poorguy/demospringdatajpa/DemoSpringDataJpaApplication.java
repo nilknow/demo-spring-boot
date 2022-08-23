@@ -1,4 +1,4 @@
-package tech.poorguy.demospringdatajpa;
+package com.nilknow.demospringdatajpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package tech.poorguy.demospringdatajpa;
+package com.nilknow.demospringdatajpa;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
