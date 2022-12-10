@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: demo-h2-trigger
+  h2:
+    console:
+      settings:
+        web-admin-password:
